@@ -1,0 +1,249 @@
+@font-face {
+	font-family: 'AlexBrush';
+	src: url('../font/AlexBrush.ttf');
+}
+
+@font-face {
+	font-family: 'Quicksand';
+	src: url('../font/Quicksand-Regular.otf');
+}
+
+body {
+   background-image: url('../img/handholding.jpg');
+   background-position: top center;	
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   font-family: 'Quicksand';
+}
+
+#container {
+	width: 900px;
+	position: relative;
+	margin: auto;
+}
+
+#general {
+	float: left;
+	width: 360px;
+	margin-right: 16px;
+	text-align: center;
+	position: relative;
+}
+
+#about { 
+	background: rgba(4,8,51,0.5);
+	color: rgb(231,228,221);
+	margin-bottom: 16px;
+	padding: 8px; 
+}
+
+#navigation { 
+	background: rgba(231,228,221,0.6); 
+}
+
+#login {
+	width: 900px;
+	position: relative;
+	margin: auto;
+	background: rgba(4,8,51,0.5);
+	color: rgb(231,228,221);
+}
+
+h1 {
+	font-family: 'AlexBrush';
+	font-size: 42px;
+	margin-left: 4px;
+	margin-right: 4px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+h2 {
+	font-family: 'AlexBrush';
+	font-size: 36px;
+	margin-left: 4px;
+	margin-right: 4px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+h3 {
+	font-family: 'AlexBrush';
+	font-size: 30px;
+	margin-left: 4px;
+	margin-right: 4px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+p {
+	margin-top: 0px;
+}
+
+#about_date, #about_location {
+	font-family: 'Quicksand';
+	font-size: 24px;
+}
+
+#content {
+	background: rgba(231,228,221,0.75);
+	float: right;
+	width: 480px;
+	padding: 8px;
+}
+
+#countdown {
+	background: rgba(231,228,221,0.6);
+	color: rgba(4,8,51,0.8);
+	margin: 16px;
+	padding: 4px;
+}
+
+ul#navigation_links {
+	list-style-type: none;
+	display: inline;
+	margin: 4px;
+}
+
+li {
+	padding: 4px;
+	font-size: 16px;
+}
+
+a {
+	color: rgb(4,8,51);
+	text-decoration: none;
+}
+
+a:hover
+{ 
+	text-decoration: underline;
+}
+
+form {
+	padding-left: 16px;
+}
+
+input[type="text"] {
+    border: 2px solid #cdcdcd;
+    border-color: rgba(4,8,51,0.5);
+    background-color: rgb(231,228,221);
+    font-family: 'Quicksand';
+}
+
+textarea {
+    border: 2px solid #cdcdcd;
+    border-color: rgba(4,8,51,0.5);
+    background-color: rgb(231,228,221);
+    font-family: 'Quicksand';
+}
+
+.rsvp_number {
+	width: 20px;
+	text-align: center;
+}
+
+.rsvp_text {
+	width: 400px;
+}
+
+.story_response {
+	padding-left: 16px;
+}
+
+.wp_male, .wp_female {
+	display: inline-block;
+	padding: 16px 4px;
+}
+
+.wp_name {
+	text-align: center;
+}
+
+.ht_name {
+	text-align: center;
+	padding-top: 10px;
+}
+
+.registry_logo {
+	position: relative;
+	width: 100%;
+}
+
+.engagement_photo {
+	position: relative;
+	width: 100%;
+	border-radius: 60px;
+	-moz-border-radius: 60px;
+	-webkit-border-radius: 60px;
+	-o-border-radius: 60px;	
+}
+
+.wp_picture_male, .wp_picture_female {
+	width: 100px;
+	height: 100px;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-o-border-radius: 60px;
+}
+
+.wp_picture_male {
+	float: right;
+	padding-right: 4px;
+	padding-left: 4px;
+}
+
+.wp_picture_female {
+	float: left;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.wp_description_male, .wp_description_female {
+	width: 360px;
+	top: auto;
+	
+}
+
+.wp_description_female {
+	float: right;
+	padding-right: 4px;
+	padding-left: 0px;
+	text-align: justify;
+}
+
+.wp_description_male {
+	float:left;
+	padding-right: 0px;
+	padding-left: 4px;
+	text-align: justify;
+}
+
+p.story_response {
+	padding: 4px;
+	text-align: justify;
+}
+
+#pic_bm0 {
+	padding-top: 16px;
+}
+
+#pic_bm2 {
+	padding-top: 8px;
+}
+
+#editor_note {
+	font-size: 90%;
+	text-align: justify;
+}
+
+/* define mobile specific styles below */
+@media only screen and (max-device-width: 640px) {
+
+body {
+	background-image: none;
+	background-color: rgb(132,132,130);
+}
+
+}
